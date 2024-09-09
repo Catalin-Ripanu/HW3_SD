@@ -1,4 +1,4 @@
-Here is the summary in English, preserving the Markdown format:
+# HW3_SD
 
 The task was completed in 2 weeks and 2 days. The implementation ideas came to me successively. In the first week, I implemented the necessary structures, processing functions, and writing functions. I used a 'for' loop and the `fscanf` function to obtain the data from the input file. Also in the first week, I solved requirement 1 of the task. Evidently, there were many errors reported by Valgrind within the 'Productions' function. I spent 2-3 days to resolve all the errors caused by that binary tree vector within the function. The requirement was simple, I had to find the connected component with the most nodes. I saved this component in a binary tree. The interesting part was that the ascending order was obtained by traversing the tree in-order.That's why I chose to use trees in the task. Evidently, another solution was to use the `qsort` function on a `char**` variable. I didn't opt for that.
 
